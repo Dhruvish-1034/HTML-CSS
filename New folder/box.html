@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <script>
+        function myfunction(){
+        let p=prompt("Hello");
+        let text;
+        if(p== null || p=="")
+        {
+            text="LOL";
+        }
+        else{
+            text="Hello "+p+" How are you?";
+        }
+        document.getElementById("demon").innerHTML=text;
+        }
+    </script>  
+    </head>
+    <body>
+        <button onclick="myfunction()">Try It</button>
+        <p id="demon"></p>
+    </body>
+</html>

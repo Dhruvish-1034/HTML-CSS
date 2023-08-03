@@ -1,0 +1,24 @@
+/* div {
+  color: coral;
+} */
+
+/* li em {
+  color: orange;
+  font-weight: bold;
+} */
+
+/* span.one,
+em.one {
+  color: orange;
+  font-weight: bold;
+} */
+
+/* li em {
+  color: rebeccapurple;
+} */
+
+/* --------pseudo class selector-------- */
+a:hover {
+  color: red;
+  text-decoration: none;
+}
